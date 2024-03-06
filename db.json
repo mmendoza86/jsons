@@ -1,5 +1,5 @@
 {
-  "invoice": [
+  "invoice": 
     {
       "billed_items_summary": [
         {
@@ -196,8 +196,7 @@
         "tax_included": true,
         "value": 62.17
       }
-    }
-  ],
+    },
   "SuscribeProducts": [
     {
       "id": "412d606f-4937-443b-b5e7-a8d0f63ef0bc",
