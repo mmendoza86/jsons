@@ -1,8 +1,8 @@
 {
   "categories": [
     {
-      "name": "Electronics",
-      "subcategories": ["Mobile Phones", "Laptops", "Tablets", "Cameras"]
+      "name": "administrative_structure",
+      "subcategories": ["Comportamiento del Despacho", "Evaluaciones del Despacho"]
     },
     {
       "name": "Fashion",
