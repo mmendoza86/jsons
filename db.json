@@ -1,298 +1,44 @@
 {
-  "invoice": 
+  "categories": [
     {
-      "billed_items_summary": [
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 62.05
-          },
-          "description": "Cuotas mensuales",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "1000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 70.22
-          },
-          "description": "Movistar Fusión",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "1001",
-          "parent_id": "1000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": -40.74
-          },
-          "description": "Fusión TV. Aportación del promotor",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "1002",
-          "parent_id": "1000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 41.32
-          },
-          "description": "Premium HD",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "1003",
-          "parent_id": "1000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": -8.77
-          },
-          "description": "Descuento oferta club senior",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "1004",
-          "parent_id": "1000",
-          "start_date": "2017-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 8.39
-          },
-          "description": "Consumos",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 0.13
-          },
-          "description": "Consumo de fijo",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2001",
-          "parent_id": "2000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 0.13
-          },
-          "description": "Llamadas a Numeraciones 901",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2002",
-          "parent_id": "2001",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 0
-          },
-          "description": "Llamadas a móviles",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2003",
-          "parent_id": "2001",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 8.26
-          },
-          "description": "Consumo de móvil",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2004",
-          "parent_id": "2000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 0
-          },
-          "description": "Llamadas Fusión",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2005",
-          "parent_id": "2004",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 8.26
-          },
-          "description": "Pagos Online en Servicios de Terceros",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "2006",
-          "parent_id": "2004",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 14.79
-          },
-          "description": "Impuestos",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "3000",
-          "start_date": "2016-12-18T00:00:00Z"
-        },
-        {
-          "amount": {
-            "currency": "EUR",
-            "tax_included": true,
-            "value": 8.26
-          },
-          "description": "IVA(21%). Base imponible 70,4527",
-          "end_date": "2017-01-17T00:00:00Z",
-          "id": "3001",
-          "parent_id": "3000",
-          "start_date": "2016-12-18T00:00:00Z"
-        }
-      ],
-      "creation_date": "2017-02-01T00:00:00Z",
-      "customer": {
-        "id_document": {
-          "country": "ES",
-          "type": "NIF",
-          "value": "6667337566Y"
-        },
-        "name": "Andrés Iniesta"
-      },
-      "download_url": "https://telefonica4p.example.com/download?document=bill&tokenADFAEGHAEGAEGAAGAEGHA",
-      "due_date": "2017-02-10T00:00:00Z",
-      "end_date": "2017-01-17T00:00:00Z",
-      "id": "TA5EN1442511",
-      "identifiers": [
-        "+34939791073",
-        "+34654332211",
-        "+34618974299"
-      ],
-      "name": "Airtime bill",
-      "next_invoice_date": "2017-03-01T00:00:00Z",
-      "payment_date": "2017-02-09T00:00:00Z",
-      "payment_status": "paid",
-      "start_date": "2016-12-18T00:00:00Z",
-      "total_amount": {
-        "currency": "EUR",
-        "tax_included": true,
-        "value": 62.17
-      }
+      "name": "Electronics",
+      "subcategories": ["Mobile Phones", "Laptops", "Tablets", "Cameras"]
     },
-  "SuscribeProducts": [
     {
-      "id": "412d606f-4937-443b-b5e7-a8d0f63ef0bc",
-      "name": "Andrés Iniesta",
-      "id_document": {
-        "country": "ES",
-        "type": "NIF",
-        "value": "6667337566Y"
-      },
-      "contact_media": [
-        {
-          "type": "phone_number",
-          "value": "+34629123456"
-        }
-      ],
-      "identities": [
-        {
-          "type": "uid",
-          "id": "412d606f-4937-443b-b5e7-a8d0f63ef0bc",
-          "services": [
-            "authentication"
-          ],
-          "roles": [
-            "owner"
-          ]
-        },
-        {
-          "type": "uid",
-          "id": "6667337566Y",
-          "services": [
-            "authentication"
-          ],
-          "roles": [
-            "owner"
-          ]
-        },
-        {
-          "type": "uid",
-          "id": "8971245361267438349",
-          "services": [
-            "iptv"
-          ],
-          "roles": [
-            "owner"
-          ],
-          "group_ids": [
-            "bundle_1"
-          ],
-          "friendly_name": "TV at home"
-        },
-        {
-          "type": "phone_number",
-          "id": "+34629123456",
-          "services": [
-            "mobile_postpaid"
-          ],
-          "roles": [
-            "owner",
-            "admin"
-          ],
-          "group_ids": [
-            "bundle_1"
-          ],
-          "friendly_name": "John's phone"
-        },
-        {
-          "type": "phone_number",
-          "id": "+34609332266",
-          "services": [
-            "mobile_postpaid"
-          ],
-          "roles": [
-            "owner"
-          ],
-          "group_ids": [
-            "bundle_1"
-          ],
-          "friendly_name": "Mary's phone"
-        },
-        {
-          "type": "phone_number",
-          "id": "+34983456789",
-          "services": [
-            "landline",
-            "internet"
-          ],
-          "roles": [
-            "admin",
-            "basic"
-          ],
-          "group_ids": [
-            "bundle_1"
-          ],
-          "friendly_name": "Jose's phone"
-        }
-      ]
+      "name": "Fashion",
+      "subcategories": ["Men's Clothing", "Women's Clothing", "Shoes", "Accessories"]
+    },
+    {
+      "name": "Home & Kitchen",
+      "subcategories": ["Furniture", "Appliances", "Cookware", "Decor"]
+    },
+    {
+      "name": "Books",
+      "subcategories": ["Fiction", "Non-Fiction", "Children's Books", "Educational"]
+    },
+    {
+      "name": "Beauty & Personal Care",
+      "subcategories": ["Skincare", "Makeup", "Hair Care", "Fragrances"]
+    },
+    {
+      "name": "Sports & Outdoors",
+      "subcategories": ["Fitness Equipment", "Outdoor Gear", "Sports Apparel", "Footwear"]
+    },
+    {
+      "name": "Toys & Games",
+      "subcategories": ["Action Figures", "Board Games", "Dolls", "Educational Toys"]
+    },
+    {
+      "name": "Automotive",
+      "subcategories": ["Car Accessories", "Motorcycle Parts", "Tools & Equipment", "Tires"]
+    },
+    {
+      "name": "Health & Wellness",
+      "subcategories": ["Vitamins & Supplements", "Medical Supplies", "Fitness Equipment", "Personal Care"]
+    },
+    {
+      "name": "Grocery & Gourmet Food",
+      "subcategories": ["Beverages", "Snacks", "Organic Foods", "Pantry Staples"]
     }
   ]
 }
