@@ -1,14 +1,21 @@
 [
-    {
-      "name": "administrative_structure",
-      "subcategories": ["Comportamiento del Despacho", "Evaluaciones del Despacho"]
-    },
-    {
-      "name": "Fashion",
-      "subcategories": ["Men's Clothing", "Women's Clothing", "Shoes", "Accessories"]
-    },
-    {
-      "name": "Home & Kitchen",
-      "subcategories": ["Furniture", "Appliances", "Cookware", "Decor"]
-    }
+  {
+    "name": "Electronics",
+    "subcategories": [
+      "Mobile Phones",
+      "Laptops",
+      "Tablets",
+      "Cameras"
+    ]
+  },
+  {
+    "name": "Fashion",
+    "subcategories": [
+      "Men's Clothing",
+      "Women's Clothing",
+      "Shoes",
+      "Accessories"
+    ]
+  }
+  // Más categorías...
 ]
