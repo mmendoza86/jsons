@@ -1,5 +1,5 @@
 {
-    "categories": [
+  "categories": [
     {
       "name": "Electronics",
       "subcategories": ["Mobile Phones", "Laptops", "Tablets", "Cameras"]
@@ -40,5 +40,5 @@
       "name": "Grocery & Gourmet Food",
       "subcategories": ["Beverages", "Snacks", "Organic Foods", "Pantry Staples"]
     }
-]
+  ]
 }
