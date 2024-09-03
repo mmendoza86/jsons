@@ -1,5 +1,4 @@
-{
-  "categories": [
+[
     {
       "name": "administrative_structure",
       "subcategories": ["Comportamiento del Despacho", "Evaluaciones del Despacho"]
@@ -40,5 +39,4 @@
       "name": "Grocery & Gourmet Food",
       "subcategories": ["Beverages", "Snacks", "Organic Foods", "Pantry Staples"]
     }
-  ]
-}
+]
