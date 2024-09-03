@@ -1,21 +1,42 @@
-[
-  {
-    "name": "Electronics",
-    "subcategories": [
-      "Mobile Phones",
-      "Laptops",
-      "Tablets",
-      "Cameras"
-    ]
-  },
-  {
-    "name": "Fashion",
-    "subcategories": [
-      "Men's Clothing",
-      "Women's Clothing",
-      "Shoes",
-      "Accessories"
-    ]
-  }
-  // Más categorías...
+"categories": [
+    {
+      "name": "Electronics",
+      "subcategories": ["Mobile Phones", "Laptops", "Tablets", "Cameras"]
+    },
+    {
+      "name": "Fashion",
+      "subcategories": ["Men's Clothing", "Women's Clothing", "Shoes", "Accessories"]
+    },
+    {
+      "name": "Home & Kitchen",
+      "subcategories": ["Furniture", "Appliances", "Cookware", "Decor"]
+    },
+    {
+      "name": "Books",
+      "subcategories": ["Fiction", "Non-Fiction", "Children's Books", "Educational"]
+    },
+    {
+      "name": "Beauty & Personal Care",
+      "subcategories": ["Skincare", "Makeup", "Hair Care", "Fragrances"]
+    },
+    {
+      "name": "Sports & Outdoors",
+      "subcategories": ["Fitness Equipment", "Outdoor Gear", "Sports Apparel", "Footwear"]
+    },
+    {
+      "name": "Toys & Games",
+      "subcategories": ["Action Figures", "Board Games", "Dolls", "Educational Toys"]
+    },
+    {
+      "name": "Automotive",
+      "subcategories": ["Car Accessories", "Motorcycle Parts", "Tools & Equipment", "Tires"]
+    },
+    {
+      "name": "Health & Wellness",
+      "subcategories": ["Vitamins & Supplements", "Medical Supplies", "Fitness Equipment", "Personal Care"]
+    },
+    {
+      "name": "Grocery & Gourmet Food",
+      "subcategories": ["Beverages", "Snacks", "Organic Foods", "Pantry Staples"]
+    }
 ]
